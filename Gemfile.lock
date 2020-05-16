@@ -60,7 +60,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     ansi (1.5.0)
     bindex (0.8.1)
-    bootsnap (1.4.4)
+    bootsnap (1.4.6)
       msgpack (~> 1.0)
     builder (3.2.4)
     byebug (11.0.1)
@@ -237,7 +237,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootsnap (= 1.4.4)
+  bootsnap (>= 1.4.2)
   byebug (= 11.0.1)
   capybara (= 3.28.0)
   guard (= 2.16.2)
@@ -262,4 +262,4 @@ DEPENDENCIES
   webpacker (= 4.0.7)
 
 BUNDLED WITH
-   1.17.2
+   2.1.2
